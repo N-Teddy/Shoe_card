@@ -32,17 +32,47 @@ footer {
     line-height: 14px;
 }
 
-footer div p {
-    font-size: 10px;
-    font-style: italic;
-    color: rgb(194, 190, 190);
+footer {
+    background-color: rgb(0, 38, 132);
+
+    p {
+        color: rgb(194, 190, 190);
+        font-size: 14px;
+
+    }
+
+    .owner {
+        font-style: italic;
+    }
+
+    .inspiration {
+        background-color: transparent;
+        
+        a {
+            text-align: center;
+            background-color: transparent;
+            font-size: 12px;
+            padding: 0 20px;
+            margin: 0 auto;
+            color: #c8dcfd;
+        }
+    }
 }
 
-/* styling the login page */
-.welcome {
+
+
+/* styling the login $ sign in page */
+.welcome,
+.started {
     font-size: 45px;
     font-weight: 500;
     color: #002c9b;
+}
+
+.creat_now {
+    margin-top: -10px;
+    font-size: 18px;
+    color: rgb(180, 178, 178);
 }
 
 .create_account {
@@ -60,7 +90,7 @@ footer div p {
 }
 
 label p {
-    font-size: 12px;
+    font-size: 14px;
     color: gray;
 }
 
