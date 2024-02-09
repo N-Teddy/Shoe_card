@@ -1,0 +1,6 @@
+/* styling the nav links after cliking action */
+.focused_nav_li {
+    font-size: 18px;
+    color: orange;
+    border-bottom: 1.5px solid orange;
+}

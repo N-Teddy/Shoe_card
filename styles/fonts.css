@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+header,
+footer {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.middle_section {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.shoe_type {
+    color: #00a0df;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    word-spacing: 2.5px;
+}
+
+.shoe_name {
+    font-size: 30px;
+    font-weight: 900;
+    color: #002c9b;
+    line-height: 28px;
+}
+
+.description {
+    font-size: 13px;
+    font-weight: 100;
+    color: rgb(181, 178, 178);
+    line-height: 14px;
+}
+
+footer div p {
+    font-size: 10px;
+    font-style: italic;
+    color: rgb(194, 190, 190);
+}
+
+/* styling the login page */
+.welcome {
+    font-size: 45px;
+    font-weight: 500;
+    color: #002c9b;
+}
+
+.create_account {
+    font-size: 17px;
+    text-align: center;
+
+    span {
+        color: #00a0df;
+    }
+
+}
+
+.login_form input {
+    color: gray;
+}
+
+label p {
+    font-size: 12px;
+    color: gray;
+}
+
+.forgot_pass {
+    display: inline-block;
+    color: #00a0df;
+}

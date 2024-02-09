@@ -1,0 +1,179 @@
+
+* {
+    background-color: white;
+    /* outline: 1px solid gray; */
+}
+
+/* styling the website's body */
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* styling the main  */
+main {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* styling the header */
+header {
+    height: 85px;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+/* styling the mid */
+.middle_section {
+    width: 98%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* aside */
+
+aside {
+    width: 170px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    padding: 1px;
+    justify-content: center;
+
+    div {
+        width: 150px;
+        height: 150px;
+        outline: 1px solid rgb(198, 195, 195);
+    }
+
+}
+
+/* shoe card */
+
+.shoe_card {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoe_description {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+
+    .color {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        
+        .color_option {
+            width: 50px;
+            height: 50px;
+        }
+
+    }
+
+    .order {
+        display: flex;
+        gap: 15px;
+
+        .shoe_price {
+            padding: 0 9px;
+            border: 2px solid orange;
+            margin-left: 10px;
+        }
+    }
+
+}
+
+.shoe_image {
+    width: 500px;
+    height: 100%;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 50px;
+    background-color: rgb(0, 38, 132);
+    color: #c8dcfd;
+
+    p {
+        background-color: rgb(0, 38, 132);
+    }
+
+}
+
+
+/* styles for the log in page */
+
+.log {
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: max-content;
+    /* border: 1px solid rgb(188, 186, 186); */
+    border-radius: 12px;
+    padding: 20px;
+    margin-left: 70px;
+    margin-bottom: 36px;
+    box-shadow: 15px 15px 20px gray;
+}
+
+.login_form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin: 17px 0;
+
+    .div {
+        height: max-content;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .remember {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            input {
+                width: 15px;
+                height: 15px;
+            }
+
+        }
+    
+        .forgot_pass {
+            display: inline-block;
+        }
+    }
+
+}
+
+
+
+
+
+

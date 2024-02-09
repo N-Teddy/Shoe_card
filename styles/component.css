@@ -1,0 +1,91 @@
+/* styling navigations */
+nav {
+    display: inline-block;
+}
+
+
+
+/* styling list items */
+
+nav li { 
+    display: inline-block;
+    list-style: none;
+    color: rgb(149, 148, 148);
+    padding: 2px 6px;
+}
+
+.left_nav li {
+    padding: 2px 15px;
+}
+
+/* styling button */
+
+button {
+    background-color: rgb(0, 44, 155);
+    color: white;
+    width: max-content;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 5px 0;
+    border: none;
+}
+
+.cart {  
+    width: 200px; 
+}
+
+.log button {
+    width: 100%;
+    margin: 4px 0;
+}
+
+
+/* styling the search */
+
+
+.right_nav input {
+    color: gray;
+    display: inline-block;
+    width: 100px;
+    padding-left: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(175, 173, 173);
+}
+
+label {
+    height: max-content;
+    width: max-content;
+    display: inline-block;
+
+    .log_input {
+        display: inline-block;
+        border: 1px solid rgb(184, 182, 182);
+        height: 30px;
+        width: 310px;
+        border-radius: 15px;
+        padding-left: 10px;
+    }
+}
+
+/* styling the scroll bar */ 
+
+aside::-webkit-scrollbar {
+    width: 13px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 7px;
+}
+
+aside::-webkit-scrollbar-thumb {
+    background-color: rgb(148, 148, 148);
+    border-radius: 7px;
+}
+
+/*  */
+
+/* styling the links */ 
+
+a {
+    text-decoration: none;
+}
+
+
